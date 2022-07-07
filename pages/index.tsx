@@ -6,7 +6,7 @@ import { Table } from "../components/Table";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
-  return <Table></Table>;
+  return <Table title={""} content={""} numberToDisplay={2}></Table>;
 };
 
 export default Home;
