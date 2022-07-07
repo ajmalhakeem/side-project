@@ -18,11 +18,6 @@ type TableProps = {
   title: string;
   content: string;
   numberToDisplay: evenNumbers;
-  extraProp1?: string;
-  extraProp2?: string;
-  extraProp3?: string;
-  extraProp4?: string;
-  extraProp5?: string;
 };
 
 export const Table = ({
@@ -31,7 +26,6 @@ export const Table = ({
   numberToDisplay,
   ...rest
 }: TableProps) => {
-  const { extraProp1, extraProp2, extraProp3, extraProp4, extraProp5 } = rest;
   return (
     <div className="px-4 sm:px-6 lg:px-8">
       <div className="sm:flex sm:items-center">
