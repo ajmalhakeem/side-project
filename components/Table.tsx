@@ -36,7 +36,7 @@ export const Table = ({
     <div className="px-4 sm:px-6 lg:px-8">
       <div className="sm:flex sm:items-center">
         <div className="sm:flex-auto">
-          <h1 className="text-xl font-semibold text-gray-900">Transactions</h1>
+          <h1 className="text-xl font-semibold text-gray-900"> {extraProp2}</h1>
           <p className="mt-2 text-sm text-gray-700">
             A table of placeholder stock market data that does not make any
             sense.
